@@ -1,7 +1,7 @@
 # Tensorflow-Probabillity-
 Repo for bayesian neural network.
 
-The file dist_bayesian_nn.py contains the code bayesian neural network distrubuted using Horovod.
+The file dist_bayesian_nn.py contains the code of distrubuted bayesian neural network for mnist using Horovod.
 
 To run the script execute following on the command line
 
