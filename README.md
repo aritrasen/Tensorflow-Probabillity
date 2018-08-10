@@ -1,2 +1,13 @@
 # Tensorflow-Probabillity-
 Repo for bayesian neural network.
+
+The file dist_bayesian_nn.py contains the code bayesian neural network distrubuted using Horovod.
+
+To run the script execute following on the command line
+
+mpirun -n NOR python3 dist_bayesian_nn.py
+
+where NOR is the number of ranks. 
+
+In case you're running it on one of the XC40 system replace mpirun by aprun in your batch script.
+
