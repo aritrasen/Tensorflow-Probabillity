@@ -11,3 +11,4 @@ where NOR is the number of ranks.
 
 In case you're running it on one of the XC40 system replace mpirun by aprun in your batch script.
 
+Merge_code folder contains codes for both bayesian nnet and normal nnet (not distributed version).
