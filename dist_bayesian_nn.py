@@ -305,6 +305,10 @@ def main(argv):
           
           _ = mon_sess.run([train_op, accuracy_update_op],
                      feed_dict={handle: ds_handle_hook.train_handle})
+          #Warning: This is an ad-hoc way of printing Held-out.
+          #Because of this you may see code failed message but that can be safely ignored.
+          #It doesn't affect any actual computation.
+          #
           step = mon_sess.run(global_step)
           if (step+1) % FLAGS.viz_steps == 0:
           # Compute log prob of heldout set by averaging draws from the model:
